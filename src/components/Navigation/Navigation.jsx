@@ -37,7 +37,6 @@ const Navigation = () => {
       </Box>
 
       <Flex align="center" gap={3}>
-        {/* Тогглер темы */}
         <IconButton
           aria-label="Toggle theme"
           icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
